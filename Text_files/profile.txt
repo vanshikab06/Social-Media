@@ -1,0 +1,157 @@
+<nav id="main-nav">
+        <div id="nav-left">
+            <img src="../Images/menu.svg" alt="" class="hidden" onclick="toggleMenu1()">
+            <img src="../Images/Logo1.png" alt="">
+            <h3>BirdTalk</h3>
+        </div>
+        <div id="nav-right">
+            <a href="#" onclick = "loadNewsFeedPage()">Home</a>
+            <a href="#" onclick = "loadProfilePage()">Profile</a>
+            <button onclick = "loadLoginPage()">Logout</button>
+        </div>
+</nav>
+<section id="profile-sec">
+        <div id="left" class="hidden">
+            <div id="profile-dp">
+                <img src="../Images/Dp-sq.jpg" alt="">
+                <h3 id="change-name"></h3>
+            </div>
+            <div id="bio">
+                <h3>Bio</h3>
+                <input type="text" placeholder="Favorite food">
+                <input type="text" placeholder="Favorite animal">
+                <input type="text" placeholder="Favorite movie">
+                <input type="text" placeholder="Favorite color">
+                <input type="text" placeholder="Favorite place">
+            </div>
+            <div id="community">
+                <h3>Community</h3>
+                <ul>
+                    <li>150 people follow you.</li>
+                    <li>300 people followed by you.</li>
+                    <li>Recent post liked by 500 people.</li>
+                    <li>Total likes 1550.</li>
+                </ul>
+            </div>
+        </div>
+        <div id="mid">
+            <div id="edit-profile">
+                <h3>Edit Profile</h3>
+                <div id="change-photo">
+                    <img src="../Images/Dp-sq.jpg" alt="">
+                    <a href="#">Change profile photo</a>
+                </div>
+                <div id="change-details">
+                    <label class="d-label" for="changed-name">Name</label>
+                    <input class="d-input" type="text" id="changed-name" placeholder="Enter your new name">
+                    <label class="d-label" for="changed-username">Username</label>
+                    <input class="d-input" type="text" id="changed-username" placeholder="Enter your new username">
+                    <label class="d-label" for="changed-email">Email address</label>
+                    <input class="d-input" type="text" id="changed-email" placeholder="Enter your new email">
+                    <label class="d-label" for="changed-dob">Date of Birth</label>
+                    <input class="d-input" type="text" id="changed-dob" placeholder="Enter your date of birth">
+                    <label class="d-label" for="changed-number">Mobile Number</label>
+                    <input class="d-input" type="number" id="changed-number" placeholder="Enter your mobile number">
+                </div>
+            </div>
+            <div id="my-post">
+                <div id="new-post">
+                    <div>
+                        <a href="#">Status +</a>
+                        <a href="#">Photo +</a>
+                        <a href="#">Place +</a>
+                        <a href="#">Life event +</a>
+                    </div>
+                    <div><textarea name="p-text" id="inp-post" cols="63" rows="5" placeholder="What's on your mind?"></textarea>
+                    </div>
+                    <div id="n-post">
+                        Public
+                        <button>Post</button>
+                    </div>
+                </div>
+                <div id="p-recent">
+                    <h3>Recent post</h3>
+                    <div class="post">
+                        <div class="head">
+                            <img src="../Images/Dp-sq.jpg" alt="">
+                            <span id="user-name" onhashchange="name()"></span>
+                            <p class="time-info">March 02 2022, 03:45 am</p>
+                            <p class="caption">Working hard for something we don't care about is stress; working hard for
+                                something we love is called passion.<a href="#">#workfromhome #newdesksetup #officehours
+                                    #workinghours</a></p>
+                        </div>
+                        <img src="../Images/post2.jpg" alt="">
+                        <div class="likes">
+                            <img src="../Images/thumbs-up.png" alt="">
+                            <img src="../Images/comment.png" alt="">
+                            <img src="../Images/share.png" alt="">
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="head">
+                            <img src="../Images/Dp-sq.jpg" alt="">
+                            <span id="user-name-1" onhashchange="name()"></span>
+                            <p class="time-info">February 26 2022, 10:48 am</p>
+                            <p class="caption">It’s not the destination, it's the journey.<a
+                                    href="#">#roads #weekends #journey #beautiful life</a></p>
+                        </div>
+                        <img src="../Images/post5.jpg" alt="">
+                        <div class="likes">
+                            <img src="../Images/thumbs-up.png" alt="">
+                            <img src="../Images/comment.png" alt="">
+                            <img src="../Images/share.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            <div id="myPhotos">
+                <h3>My photos</h3>
+                <div id="img-col">
+                    <div class="img-row">
+                        <img src="../Images/myPhoto1.jpg" alt="">
+                        <img src="../Images/myPhoto2.jpg" alt="">
+                        <img src="../Images/myPhoto3.jpg" alt="">
+                    </div>
+                    <div class="img-row">
+                        <img src="../Images/myPhoto4.jpg" alt="">
+                        <img src="../Images/myPhoto5.jpg" alt="">
+                        <img src="../Images/myPhoto6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="friend">
+                <h3>My Friends</h3>
+                <div class="my-friend">
+                    <img src="../Images/chat1.jpg" alt="">
+                    <span>Rakul Preet</span>
+                </div>
+                <div class="my-friend">
+                    <img src="../Images/chat2.jpg" alt="">
+                    <span>Karan Ahuja</span>
+                </div>
+                <div class="my-friend">
+                    <img src="../Images/chat3.jpg" alt="">
+                    <span>Anuj Shah</span>
+                </div>
+                <div class="my-friend">
+                    <img src="../Images/chat4.jpg" alt="">
+                    <span>Shruti Sharma</span>
+                </div>
+                <div class="my-friend">
+                    <img src="../Images/chat6.jpg" alt="">
+                    <span>Priya Bhatt</span>
+                </div>
+            </div>
+            <div id="bookmark">
+                <h3>My Bookmarks</h3>
+                <a href="#"><img src="../Images/web-d.jpg" alt="">Web development</a>
+                <a href="#"><img src="../Images/java.jpg" alt="">Java full course</a>
+                <a href="#"><img src="../Images/web-d2.jpg" alt="">Web design</a>
+                <a href="#"><img src="../Images/ai-logo.png" alt="">Adobe Illustrator</a>
+                <a href="#"><img src="../Images/bookm2.jpg" alt="">Team Pixel</a>
+                <a href="#"><img src="../Images/bookm1.jpg" alt="">IT Certification</a>
+            </div>
+        </div>
+    </section>

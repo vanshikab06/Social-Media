@@ -1,0 +1,19 @@
+<section id="su-section">
+<div id="registerPage">
+<h2 id="su-heading">REGISTER</h2>
+<form action="">
+<label class="su-label" for="name">Name</label>
+<input class="su-input" type="text" id="name" placeholder="Enter your name">
+<label class="su-label" for="username">Username</label>
+<input class="su-input" type="text" id="username" placeholder="Enter your username">
+<label class="su-label" for="email">Email address</label>
+<input class="su-input" type="text" id="email" placeholder="Enter your email">
+<label class="su-label" for="password">Password</label>
+<input class="su-input" type="text" id="password" style="-webkit-text-security: disc" placeholder="Enter your password">
+<label class="su-label" for="confirmPassword">Confirm Password</label>
+<input class="su-input" type="text" id="confirmPassword" style="-webkit-text-security: disc" placeholder="Enter your password again">
+<button id="su-button" onclick="su_submit()">SIGN UP</button>
+<span id="que2">Already have an account?<a id="su-action" href="#login" onclick="loadLoginPage()"> LOG IN</a></span> 
+</form>
+</div>
+</section>

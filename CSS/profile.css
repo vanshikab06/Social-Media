@@ -1,0 +1,385 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    scroll-behavior: smooth;
+}
+
+#main-nav {
+    background: #ffd0b7;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+@media only screen and (max-width: 620px) {
+    #profile-sec .hidden {
+        display: none;
+    }
+    #left{
+        z-index: 2;
+        background: white;
+    }
+}
+@media only screen and (max-width: 620px) {
+    #profile-sec {
+        display: block;
+        justify-content: center;
+        margin: 10px 10px;
+    }
+}
+
+#nav-left h3 {
+    font-size: 21px;
+    font-weight: 400;
+    margin: 14px 3px 16px 7px;
+}
+
+#nav-left img {
+    width: 13%;
+    padding: 6px 0px;
+    margin: 0px 0px 0px 12px;
+}
+
+#nav-left,
+#nav-right {
+    display: flex;
+    justify-content: start;
+}
+
+#nav-right a {
+    font-weight: 400;
+    margin: 3px 0px;
+    padding: 13px 20px;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 620px) {
+    #nav-right a {
+        font-weight: 400;
+        margin: 3px 0px;
+        padding: 13px 5px;
+        font-size: 20px;
+        color: #000000;
+        text-decoration: none;
+        font-size: 18px;
+    }
+}
+
+#nav-right button {
+    font-size: 19px;
+    margin: 12px 23px 12px 6px;
+    padding: 0px 12px;
+    font-family: 'Roboto Slab', serif;
+    background-color: #f5793b;
+    border-radius: 22px;
+    border: 1.5px solid black;
+}
+
+#profile-sec {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+    background-color: #e9e8e8;
+}
+
+#left {
+    flex-basis: 25%;
+    position: sticky;
+    top: 66px;
+    align-self: flex-start;
+    padding: 12px 13px;
+    background-color: white;
+}
+
+#mid {
+    flex-basis: 75%;
+    margin: 0px 10px;
+}
+@media only screen and (max-width: 620px) {
+    #mid{
+        flex-basis: 75%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+#right {
+    background-color: white;
+    flex-basis: 25%;
+    position: sticky;
+    top: 66px;
+    align-self: flex-start;
+    padding: 10px 10px;
+}
+
+#profile-dp img {
+    width: 100%;
+}
+
+#profile-dp h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 13px;
+    font-weight: 500;
+}
+
+#myPhotos img {
+    width: 32%;
+}
+
+#myPhotos h3 {
+    margin: 0px 0px 11px 0px;
+    font-weight: 500;
+}
+
+#myPhotos {
+    border-bottom: 1px solid lightgray;
+}
+
+#img-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.img-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+#friend {
+    border-top: 1px solid lightgray;
+    border-bottom: 1.5px solid lightgray;
+}
+
+#friend img {
+    width: 17%;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+#friend h3 {
+    margin: 15px 0px;
+    font-weight: 500;
+}
+
+.my-friend {
+    margin: 5px 0px;
+}
+
+.my-friend span {
+    position: absolute;
+    font-size: 14px;
+    margin: 4px 5px;
+    padding: 4px 5px;
+}
+
+#bookmark h3 {
+    font-weight: 500;
+    margin: 13px 0px;
+}
+
+#bookmark a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+}
+
+#bookmark a img {
+    width: 19%;
+    margin: 2px 9px 10px 0px;
+}
+
+#bio {
+    margin-bottom: 10px;
+    border-top: 1.5px solid lightgray;
+}
+
+#bio h3 {
+    margin: 7px 0px;
+    font-weight: 500;
+    font-size: 22.80px
+}
+
+#bio input {
+    padding: 5px 7px;
+    margin: 3px 0px;
+    border: 1.5px solid #787575;
+    font-size: 15px;
+}
+
+#community {
+    border-top: 1.5px solid lightgray;
+}
+
+#community h3 {
+    margin: 9px 0px;
+    font-weight: 500;
+    font-size: 21.8px;
+}
+
+#community ul li {
+    margin: 6px 18px;
+}
+
+#edit-profile {
+    background: white;
+    padding: 12px 12px;
+}
+
+#edit-profile>h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+#change-photo {
+    text-align: center;
+}
+
+#change-photo img {
+    width: 15%;
+    border-radius: 100px;
+}
+
+#change-photo a {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 2px 0px 13px 0px;
+    display: block;
+}
+
+#change-details {
+    margin: 0px 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.d-label {
+    font-size: 17px;
+    margin: 4px 0px;
+}
+
+.d-input {
+    margin: 0px;
+    font-size: 17px;
+    margin-bottom: 5px;
+    border: 1.3px solid #423f3f;
+    padding: 2px 8px;
+}
+
+#new-post {
+    background: white;
+    margin: 15px 0px;
+    padding: 8px 13px;
+}
+
+#new-post div a {
+    font-size: 17px;
+    text-decoration: none;
+    margin: 0px 14px 0px 0px;
+    color: black;
+}
+
+#inp-post {
+    font-size: 18px;
+    margin: 6px 0px;
+    padding: 3px 5px;
+    border: 1.4px solid #6c6666;
+}
+
+#n-post {
+    text-align: right;
+    color: #544d4ddb;
+}
+
+#n-post button {
+    font-size: 16px;
+    margin: 0px 10px;
+    padding: 2px 24px;
+    background: #f5793bbf;
+    border: 1.5px solid black;
+    border-radius: 16px;
+}
+
+#n-post button:hover {
+    background: #e46323f1;
+    cursor: pointer;
+}
+
+#p-recent {
+    background-color: white;
+    padding: 10px 10px;
+}
+
+#p-recent h3 {
+    font-size: 22px;
+    font-weight: 500;
+    background-color: white;
+    padding: 4px 0px;
+}
+
+.head img {
+    width: 7%;
+    margin: 0px 5px;
+    border-radius: 50px;
+}
+
+.post {
+    background: white;
+    margin: 15px 0px;
+    padding: 12px 12px;
+    border-radius: 8px;
+    border: 1.4px solid #9e9e9e;
+}
+
+.head {
+    margin-bottom: 10px;
+}
+
+.post>img {
+    width: 100%;
+}
+
+.head span {
+    position: absolute;
+    margin: 4px 3px 0px 5px;
+}
+
+.time-info {
+    display: inline-block;
+    position: absolute;
+    font-size: 15px;
+    margin: 25px 4px 2px 5px;
+    color: #716e6e;
+}
+
+.caption {
+    margin: 10px 0px 13px 1px;
+    color: #201f1f;
+    overflow: visible;
+}
+
+.caption a {
+    text-decoration: none;
+    color: blue;
+}
+
+.likes img {
+    width: 3%;
+    filter: opacity(0.);
+    filter: invert(34%) sepia(13%) saturate(80%) hue-rotate(80deg) brightness(101%) contrast(76%);
+    margin: 4px 27px 0px 6px;
+}

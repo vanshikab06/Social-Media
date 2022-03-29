@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#su-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#registerPage {
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px black;
+    margin: 12px;
+    padding: 10px;
+    width: 36%;
+}
+
+@media only screen and (max-width: 620px) {
+    #registerPage {
+        width: 90%;
+        margin-top: 40px;
+    }
+}
+
+#su-heading {
+    text-align: center;
+}
+
+.su-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 11px;
+}
+
+.su-input {
+    font-size: 17px;
+    padding: 4px 5px;
+    margin-bottom: 0px;
+    border: 1.5px solid #c3baba;
+}
+
+#su-button {
+    font-family: 'Roboto Slab', serif;
+    background-color: #f5793bcf;
+    padding: 5px 3px;
+    font-size: 18px;
+    margin: 16px 0px 6px 0px;
+    border: 1.5px solid black;
+}
+
+#que2 {
+    margin: 14px 0px;
+    text-align: center;
+}

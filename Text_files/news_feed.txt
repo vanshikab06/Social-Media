@@ -1,0 +1,172 @@
+    <nav id="main-nav">
+        <div id="nav-left">
+            <img src="../Images/menu.svg" alt="" class="hidden" onclick="toggleMenu()">
+            <img src="../Images/Logo1.png" alt="">
+            <h3>BirdTalk</h3>
+        </div>
+        <div id="nav-right">
+            <a href="#" onclick = "loadNewsFeedPage()">Home</a>
+            <a href="#" onclick = "loadProfilePage()">Profile</a>
+            <button onclick = "loadLoginPage()">Logout</button>
+        </div>
+    </nav>
+    <section id="nf-section">
+        <div class="section hidden" id="left-sec">
+            <div id="links">
+                <a href="#"><img src="../Images/news.png" alt="">News</a>
+                <a href="#"><img src="../Images/friends.png" alt="">Friends</a>
+                <a href="#"><img src="../Images/group.png" alt="">Group</a>
+                <a href="#"><img src="../Images/watch.png" alt="">Watch</a>
+            </div>
+            <div id="shortcuts">
+                <h3>Shortcuts</h3>
+                <a href="#"><img src="../Images/web-d.jpg" alt="">Web development</a>
+                <a href="#"><img src="../Images/java.jpg" alt="">Java full course</a>
+                <a href="#"><img src="../Images/web-d2.jpg" alt="">Web design</a>
+                <a href="#"><img src="../Images/ai-logo.png" alt="">Adobe Illustrator</a>
+            </div>
+        </div>
+        <div class="section" id="middle-sec">
+            <div id="story">
+                <div class="story-container">
+                    <img src="../Images/Dp-sq.jpg" alt="" class="story-dp">
+                    <img src="../Images/Dp.jpg" alt="" class="stories">
+                    <p id="user-name-4">Your Story</p>
+                </div>
+                <div class="story-container">
+                    <img src="../Images/chat2.jpg" alt="" class="story-dp">
+                    <img src="../Images/story2.jpg" alt="" class="stories">
+                    <p>Karan Ahuja</p>
+                </div>
+                <div class="story-container">
+                    <img src="../Images/chat1.jpg" alt="" class="story-dp">
+                    <img src="../Images/story3.jpg" alt="" class="stories">
+                    <p>Rakul Preet</p>
+                </div>
+                <div class="story-container">
+                    <img src="../Images/chat3.jpg" alt="" class="story-dp">
+                    <img src="../Images/story4.jpg" alt="" class="stories">
+                    <p>Anuj Shah</p>
+                </div>
+                <div class="story-container">
+                    <img src="../Images/chat5.jpg" alt="" class="story-dp">
+                    <img src="../Images/story5.jpg" alt="" class="stories">
+                    <p>Taylor Swift</p>
+                </div>
+            </div>
+            <div id="news">
+                <div class="post">
+                    <div class="head">
+                        <img src="../Images/chat2.jpg" alt="">
+                        <span>Karan Ahuja</span>
+                        <p class="time-info">March 04 2022, 14:30 pm</p>
+                        <p class="caption">Talent wins games, but teamwork and intelligence win championships.<a
+                                href="#">#work #teamwork #officehours</a></p>
+                    </div>
+                    <img src="../Images/post1.jpg" alt="">
+                    <div class="likes">
+                        <img src="../Images/thumbs-up.png" alt="">
+                        <img src="../Images/comment.png" alt="">
+                        <img src="../Images/share.png" alt="">
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="head">
+                        <img src="../Images/Dp-sq.jpg" alt="">
+                        <span  id="user-name-3">Your name</span>
+                        <p class="time-info">March 02 2022, 03:45 am</p>
+                        <p class="caption">Working hard for something we don't care about is stress; working hard for
+                            something we love is called passion.<a href="#">#workfromhome #newdesksetup #officehours
+                                #workinghours</a></p>
+                    </div>
+                    <img src="../Images/post2.jpg" alt="">
+                    <div class="likes">
+                        <img src="../Images/thumbs-up.png" alt="">
+                        <img src="../Images/comment.png" alt="">
+                        <img src="../Images/share.png" alt="">
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="head">
+                        <img src="../Images/chat1.jpg" alt="">
+                        <span>Rakul Preet</span>
+                        <p class="time-info">March 02 2022, 01:38 am</p>
+                        <p class="caption">Do it with a passion or not at all.<a href="#">#work #teamwork #officehours
+                                #office</a></p>
+                    </div>
+                    <img src="../Images/post3.jpg" alt="">
+                    <div class="likes">
+                        <img src="../Images/thumbs-up.png" alt="">
+                        <img src="../Images/comment.png" alt="">
+                        <img src="../Images/share.png" alt="">
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="head">
+                        <img src="../Images/chat3.jpg" alt="">
+                        <span>Anuj Shah</span>
+                        <p class="time-info">March 1 2022, 12:16 am</p>
+                        <p class="caption">All about yesterday.<a href="#">#family #life #weekends</a></p>
+                    </div>
+                    <img src="../Images/post4.jpg" alt="">
+                    <div class="likes">
+                        <img src="../Images/thumbs-up.png" alt="">
+                        <img src="../Images/comment.png" alt="">
+                        <img src="../Images/share.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="right-sec">
+            <div id="my-events">
+                <h3>My Events</h3>
+                <div class="event">
+                    <div class="left-event">
+                        <h3>12</h3>
+                        <span>June</span>
+                    </div>
+                    <div class="right-event">
+                        <h3>Birthday</h3>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="left-event">
+                        <h3>27</h3>
+                        <span>September</span>
+                    </div>
+                    <div class="right-event">
+                        <h3>Anniverasry</h3>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="left-event">
+                        <h3>19</h3>
+                        <span>October</span>
+                    </div>
+                    <div class="right-event">
+                        <h3>Manali Trip</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="ads">
+                <h3>Advertisement</h3>
+                <img src="../Images/ad2.jpg" alt="">
+            </div>
+            <div id="chat">
+                <h3>Chats</h3>
+                <div class="my-chat">
+                    <img src="../Images/chat1.jpg" alt="">
+                    <span>Rakul Preet</span>
+                </div>
+                <div class="my-chat">
+                    <img src="../Images/chat2.jpg" alt="">
+                    <span>Karan Ahuja</span>
+                </div>
+                <div class="my-chat">
+                    <img src="../Images/chat3.jpg" alt="">
+                    <span>Anuj Shah</span>
+                </div>
+            </div>
+
+        </div>
+    </section>

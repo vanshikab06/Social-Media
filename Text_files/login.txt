@@ -1,0 +1,25 @@
+<nav>
+<div id="nav-left">
+    <img src="../Images/Logo1.png" alt="">
+    <h3>BirdTalk</h3>
+</div>
+<div id="nav-right">
+    <button onclick="loadLoginPage()">Login</button>
+    <button onclick="loadSignupPage()">Register</button>
+</div>
+</nav>
+<section id="change">
+    <section id="li-section">
+        <div  id="loginPage">
+        <h2 id="li-heading">LOGIN</h2>
+        <form action="">
+            <label class="li-label" for="input_email">Email</label>
+            <input class="li-input" type="text" id="input_email" placeholder="Enter your email">
+            <label class="li-label" for="input_password">Password</label>
+            <input class="li-input" type="text" id="input_password" style="-webkit-text-security: disc" placeholder="Enter your password">
+            <button id="li-button"  onclick="li_submit()">LOGIN</button>
+            <span id="que1">New User?<a id="li-action" href="#signup" onclick="loadSignupPage()"> SIGN UP</a></span> 
+        </form>
+        </div>
+    </section>
+</section>
